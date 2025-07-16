@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orthodon</title>
+    <link rel="stylesheet" href="paghomestyle.css">
+    <script src="paghome.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>Orthodon</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Agendamentos</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+
+        <button id="btn-menu" >☰</button>
+
+    </header>
+
+    <main>
+        <h1>bem - vindo</h1>
+
+        <form method="get">
+            <h1>Orthodon</h1>
+            <div id="usuario">
+                <label for="nome">nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="nome">
+            </div>
+
+            <div id="servico">
+
+              <label for="server">serviços:</label>
+              <select name="server" id="server">
+
+                   <optgroup label="manuteção">
+                          <option value="aparelho">aparelho</option>
+                   </optgroup>
+
+                    <optgroup label="limpeza">
+                        <option value="raspagem">raspagem</option>
+                    </optgroup>
+
+                    <optgroup label="avalição">
+                        <option value="avaliacao">avalição</option>
+                        <option value="clareamento">clareamento</option>
+                    </optgroup>
+
+                    <optgroup label="emercia">
+
+                    </optgroup>
+              </select>
+            </div>
+            
+            <div id="data_hora">
+
+               <div id="date">
+                 <label for="data">data:</label>
+                <input type="date" name="data" id="data">
+               </div>
+
+                <div id="time">
+                <label for="horario">horario:</label>
+                <input type="time" name="horario" id="horario">
+                </div>
+
+            </div>
+
+            <div id="btn-agendar">
+                <button>agendar</button>
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>
