@@ -60,6 +60,7 @@ nav li a{
         border: none;
         background: none;
         cursor: pointer;
+        font-size: 24px;
     }
 
     nav.ativo ul{
@@ -111,14 +112,19 @@ form > #usuario{
     width: 150px;
 }
 
+form #nome{
+    text-transform: uppercase;
+}
+
 form > #servico{
-    width: 200px;
+    width: 210px;
     margin-left: -37px;
    
 }
 
 #servico > select {
     outline: none;
+    text-transform: uppercase;
 }
 
 form > #data_hora{
@@ -127,13 +133,13 @@ form > #data_hora{
     gap: 10px;
 }
 
-form > #btn-agendar{
+form > #area-agendar{
     display: flex;
     justify-content: center;
     
 }
 
-form > #btn-agendar > button{
+form > #area-agendar > button{
     border: none;
     padding: 5px;
     border-radius: 5px;
@@ -142,7 +148,7 @@ form > #btn-agendar > button{
     cursor: pointer;
 }
 
-#btn-agendar button:hover{
+#area-agendar button:hover{
     background-color: rgb(192, 188, 188);
 }
 
