@@ -34,7 +34,7 @@
             <h1>Orthodon</h1>
             <div id="usuario">
                 <label for="nome">nome:</label>
-                <input type="text" name="nome" id="nome" placeholder="nome">
+                <input type="text" name="nome" id="nome" placeholder="nome" required>
             </div>
 
             <div id="servico">
@@ -54,10 +54,7 @@
                         <option value="avaliacao">avalição</option>
                         <option value="clareamento">clareamento</option>
                     </optgroup>
-
-                    <optgroup label="emergencia">
-                    </optgroup>
-
+                    
               </select>
             </div>
             
@@ -65,12 +62,12 @@
 
                <div id="date">
                  <label for="data">data:</label>
-                <input type="date" name="data" id="data">
+                <input type="date" name="data" id="data" required>
                </div>
 
                 <div id="time">
                 <label for="horario">horario:</label>
-                <input type="time" name="horario" id="horario">
+                <input type="time" name="horario" id="horario" required>
                 </div>
 
             </div>
@@ -80,6 +77,12 @@
             </div>
 
         </form>
+        <div id="msgerro">
+            erro
+        </div>
+        <div id="msgsucesso">
+            suscesso
+        </div>
     </main>
 </body>
 </html>
