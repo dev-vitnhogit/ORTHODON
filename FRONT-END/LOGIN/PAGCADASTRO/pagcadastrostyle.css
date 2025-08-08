@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+     --cor_fundo:rgb(230, 186, 128);
+}
+
+body{
+    height: 100vh;
+    background-color: var(--cor_fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    background-color: rgb(167, 161, 161);
+    width: 300px;
+    height: 350px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form > h1{
+    text-align: center;
+}
+
+form > div > input{
+    display: block;
+    margin: 5px auto;
+    border: none;
+    outline: none; 
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form > div{
+    margin: 10px 0px;
+}
+
+#area-btn{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-cadastrar{
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#btn-cadastrar > button:hover{
+    background-color: rgb(40, 101, 155);
+}
+
+form label{
+  display: block;
+  margin-left: 55px;
+}
+
+#msg-erro{
+    display: none;
+    padding: 10px;
+    background-color: red;
+    width: 55vw;
+    height: 13vh;
+    border-radius: 5px;
+    border-bottom: 3px solid black;
+    position: absolute;
+    top: 5%;
+    box-shadow: 1px 1px 10px black;
+}
+
+#msg-sucesso{
+    display: none;
+    padding: 10px;
+    background-color: green;
+    width: 55vw;
+    height: 13vh;
+    border-radius: 5px;
+    border-bottom: 3px solid black;
+    position: absolute;
+    top: 5%;
+    box-shadow: 1px 1px 10px black;
+}

@@ -1,0 +1,54 @@
+PROJETO: ORTHODON - DENTISTA
+
+PROGRAMAS;
+
+- HTML E CSS
+- JAVA SCRIPT
+
+PAGINAS;
+
+1- LOGIN / PARA SABER QUAL USUARIO TA ENTRANDO E QUAL QUER SE CADASTRAR
+
+2- PAGINA HOME / PAGINA ONDE FALA SOBRE O PROJETO E AGENDAMENTO
+
+3- PAGINA DE AGENDAMENTO DE SERVIÇOS / QUE VAI SER TIPO O MENU
+
+ - AVALIAÇÃO
+ - LIMPEZA
+ - CLAREAMENTO
+ - EMERCIA
+
+4- PAGINA DE AGENDAMENTO HORA,DATA
+
+
+LAYBOUT;
+
+- CABELHO
+- CORPO
+- FINAL
+- PAINEL
+- LISTA
+
+
+5- criar uma api com whaszap quando o cliente clicar no agendar , ai ele envia  no numero do dentista com o que ele escolheu
+
+.......................
+
+Um título
+
+Um formulário com:
+
+Nome do paciente
+
+E-mail
+
+Serviço (com opções)
+
+Data
+
+Hora
+
+Botão de agendar
+
+
+configuar a pagina de login para so usuarios poder acessar a de adm

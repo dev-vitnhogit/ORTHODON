@@ -66,3 +66,7 @@ form label{
 #btn-entrar > button:hover{
     background-color: rgb(170, 169, 169);
 }
+
+#btn-entra > a{
+   color: black;
+}
